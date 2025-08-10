@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  
   "scripts": {
+    "build":"prisma generate && next build",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
